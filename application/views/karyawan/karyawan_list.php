@@ -33,7 +33,7 @@
         <div class='col-xs-12'>
             <div class='box box-primary'>
                 <div class='box-header  with-border'>
-                    <h3 class='box-title'>DATA KARYAWAN</h3>
+                    <h3 class='box-title'>DATA SISWA</h3>
                     <div class="pull-right">
                         <?php echo anchor(site_url('tambah_anggota'), ' <i class="fa fa-plus"></i> &nbsp;&nbsp; Tambah Baru', ' class="btn btn-unique btn-lg btn-create-data btn3d" hidden="true"'); ?>
                     </div>
@@ -55,8 +55,8 @@
                         <thead>
                             <tr>
                                 <th class="all">No.</th>
-                                <th class="all">Kode Karyawan.</th>
-                                <th class="all">Nama Karywan</th>
+                                <th class="all">Kode Siswa.</th>
+                                <th class="all">Nama Siswa</th>
                                 <th class="desktop">Jabatan</th>
                                 <th class="desktop">Shift</th>
                                 <th class="desktop">action</th>

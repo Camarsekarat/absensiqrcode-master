@@ -4,7 +4,7 @@
                 <div class='col-xs-12'>
                     <div class='box box-danger'>
                         <div class='box-header with-border'>
-                            <h3 class='box-title'>DATA REKAP ABSENSI BERDASARKAN LOKASI
+                            <h3 class='box-title'>DATA REKAP ABSENSI BERDASARKAN KELAS
                         </div><!-- /.box-header -->
                         <div class='box-body'>
                             <table class="table table-bordered table-striped" id="mytable">
