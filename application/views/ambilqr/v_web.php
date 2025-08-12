@@ -11,7 +11,7 @@
                         <div class="box-body">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">INPUT NAMA DI SINI</label>
-                                <input type="text" onChang="ready()" id="id"  name="id_karyawan" class="form-control" placeholder="Masukkan Nama yang terdaftar di Data Karyawan">
+                                <input type="text" onChang="ready()" id="id"  name="id_karyawan" class="form-control" placeholder="Masukkan Nama yang terdaftar di Data Siswa">
                             </div>
                         </div>
                         <div class="box-footer">

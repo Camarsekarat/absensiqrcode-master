@@ -70,7 +70,7 @@
                     <!-- /.col -->
                 </div>
                 <?= form_close(); ?>
-                <p align='center'><b>Gunakan User dibawah ini</b></p>
+                <!-- <p align='center'><b>Gunakan User dibawah ini</b></p>
                 <table class="table table-bordered">
                     <thead>
                         <tr>
@@ -94,7 +94,7 @@
                             <td>operator</td>
                         </tr>
                     </tbody>
-                </table>
+                </table> -->
             </div>
         </div>
         <!-- /.login-box-body -->

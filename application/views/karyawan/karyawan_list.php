@@ -74,4 +74,4 @@
 <script type="text/javascript">
     let checkLogin = '<?= $result ?>';
 </script>
-<script src="<?php echo base_url() ?>assets/app/datatables/karyawan.js" charset="utf-8"></script>
+<script src="<?php echo base_url('assets/plugins/datatables/karyawan.js'); ?>" charset="utf-8"></script>

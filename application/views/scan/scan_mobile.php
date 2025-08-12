@@ -42,8 +42,10 @@
         let audio = new Audio("assets/audio/beep.mp3");
         const codeReader = new ZXing.BrowserQRCodeReader()
         console.log('ZXing code reader initialized')
-        codeReader.getVideoInputDevices()
-            .then((videoInputDevices) => {
+        navigator.mediaDevices.getUserMedia({ video: true }) // Request camera permissions explicitly
+            .then(() => {
+                codeReader.getVideoInputDevices()
+                    .then((videoInputDevices) => {
                 const sourceSelect = document.getElementById('sourceSelect')
                 selectedDeviceId = videoInputDevices[0].deviceId
                 if (videoInputDevices.length >= 1) {
