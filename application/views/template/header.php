@@ -4,7 +4,11 @@
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>A</b>K</span>
         <!-- logo for regular state and mobile devices -->
+<<<<<<< HEAD
         <span class="logo-lg"><b>SMK IT NUR HASAN</b></span>
+=======
+        <span class="logo-lg"><b>SMK IT NURHASAN</b></span>
+>>>>>>> e0211914dcd2f47f583a0c3f30e882e0e44c97d7
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top" role="navigation">

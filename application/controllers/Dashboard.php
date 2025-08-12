@@ -33,6 +33,49 @@ class Dashboard extends CI_Controller
 	}
 
 	public function admin_box()
+// 	public function index
+// {
+//     $box = [
+//         [
+//             'box'    => 'light-blue',
+//             'total'  => $this->dashboard->total('karyawan'),
+//             'title'  => 'Karyawan',
+//             'icon'   => 'user'
+//         ],
+//         [
+//             'box'    => 'olive',
+//             'total'  => $this->dashboard->total('jabatan'),
+//             'title'  => 'Jabatan',
+//             'icon'   => 'briefcase'
+//         ],
+//         [
+//             'box'    => 'yellow-active',
+//             'total'  => $this->dashboard->total('gedung'),
+//             'title'  => 'lokasi',
+//             'icon'   => 'building'
+//         ],
+//     ];
+
+//     // Mapping untuk mengganti title
+//     $replace_titles = [
+//         'Karyawan' => 'Siswa',
+//         'Jabatan'  => 'Posisi',
+//         'lokasi'   => 'Gedung Sekolah'
+//     ];
+
+//     // Ubah title berdasarkan mapping
+//     foreach ($box as &$b) {
+//         if (isset($replace_titles[$b['title']])) {
+//             $b['title'] = $replace_titles[$b['title']];
+//         }
+//     }
+
+//     $data['info_box'] = json_decode(json_encode($box), FALSE);
+
+//     // Load view dan kirim data
+//     $this->load->view('dashboard', $data);
+// }
+
 	{
 		$box = [
 			[
@@ -52,12 +95,6 @@ class Dashboard extends CI_Controller
 				'total' 	=> $this->dashboard->total('gedung'),
 				'title'		=> 'lokasi',
 				'icon'		=> 'building'
-			],
-			[
-				'box' 		=> 'red',
-				'total' 	=> $this->dashboard->total('shift'),
-				'title'		=> 'shift',
-				'icon'		=> 'retweet'
 			],
 		];
 		$info_box = json_decode(json_encode($box), FALSE);

@@ -75,7 +75,7 @@
         <div class="col-md-6">
             <div class="box box-success">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Total Karyawan Berdasarkan Penempatan</h3>
+                    <h3 class="box-title">Total Siswa Berdasarkan Kelas</h3>
                     <div class="box-tools pull-right">
                         <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                         </button>
@@ -93,7 +93,7 @@
         <div class="col-md-6">
             <div class="box box-danger">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Total Karyawan Berdasarkan Jabatan</h3>
+                    <h3 class="box-title">Total User Berdasarkan Role</h3>
                     <div class="box-tools pull-right">
                         <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                         </button>
@@ -179,7 +179,11 @@
     <div class="box box-widget widget-user">
         <div class="widget-user-header bg-blue-active">
             <p style="text-align: center;">
+<<<<<<< HEAD
                 <span style="font-family: georgia, palatino; font-size: 15pt;">Selamat datang di  Sistem Absensi Laptop SMK iT NUR HASAN.</span>
+=======
+                <span style="font-family: georgia, palatino; font-size: 15pt;">Selamat datang di  Sistem Absensi Laptop.</span>
+>>>>>>> e0211914dcd2f47f583a0c3f30e882e0e44c97d7
             </p>
             <h3 class="widget-user-username"></h3>
             <h5 class="widget-user-desc"></h5>
@@ -196,7 +200,11 @@
                 <div class="col-sm-4 border-right">
                  
                     <center>
+<<<<<<< HEAD
                         <i>Sistem Absensi Laptop berbasis QR CODE</i><br>
+=======
+                        <i>Sistem Absensi laptop berbasis QR CODE</i><br>
+>>>>>>> e0211914dcd2f47f583a0c3f30e882e0e44c97d7
                         <br>Halaman ini terbuka dalam
                         <strong>{elapsed_time}</strong> detik.
                     </center>

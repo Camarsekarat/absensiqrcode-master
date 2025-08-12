@@ -4,7 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< HEAD
     <title>Absensi Masuk</title>
+=======
+    <title>Absensi Laptop</title>
+>>>>>>> e0211914dcd2f47f583a0c3f30e882e0e44c97d7
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <?php $this->load->view('template/css'); ?>
 </head>
